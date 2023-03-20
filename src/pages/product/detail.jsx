@@ -1,39 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import '../../css/product.css';
 import '../../css/global.css';
 import '../../css/detail-product.css';
-import logoHeader from '../../assets/smkopi.png';
-import searchLogo from '../../assets/product-css/searchlogo.svg';
-import chatLogo from '../../assets/product-css/chatlogo.svg';
-import profileLogo from '../../assets/product-css/profilelogo.svg';
 import ColdBrew from '../../assets/product-css/list-product-img/coldbrew.png';
-// import fbLogo from '../../assets/fblogo.png';
-// import twtLogo from '../../assets/twitterlogo.png';
-// import igLogo from '../../assets/instagramlogo.png';
+import Header from '../../component/header';
 
-
-const DetailProduct = () => {
+class DetailProduct extends Component {
+    render() {
     return (
+        <>
+        <Header/>
         <div>
-            <div className="topbar">
-                <header className='left-topbar'>
-                    <img src={logoHeader} alt='' className='kopi' />
-                    <div className=''>Coffee Shop</div>
-                </header>
-                <div className='mid-topbar'>
-                    <ul className='flex gap-5'>
-                        <li>Home</li>
-                        <li>Product</li>
-                        <li>Your Cart</li>
-                        <li>History</li>
-                    </ul>
-                </div>
-                <div className='right-topbar'>
-                    <img src={searchLogo} alt='' />
-                    <img src={chatLogo} alt='' />
-                    <img src={profileLogo} alt='' />
-                </div>
-            </div>
             <div className="content-detail">
             <p className="content-title">Favorite & Promo<b>Cold Brew</b></p>
     <div className="content-top">
@@ -115,7 +92,8 @@ const DetailProduct = () => {
             </div>
 
         </div>
-    )
+        </>
+    )}  
 }
 
 export default DetailProduct;

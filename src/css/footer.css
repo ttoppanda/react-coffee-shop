@@ -1,0 +1,78 @@
+.bottombar {
+    display: grid;
+    grid-template-columns: 50vw auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    color: #0B132A;
+}
+
+.bottombar > .btmbar-left {
+    align-self: center;
+    padding-left: 5vw;
+    padding-right: 20vw;
+    display : flex;
+    flex-flow : wrap;
+    align-items : center;
+}
+
+.bottombar > .btmbar-mid {
+    display : flex;
+    padding-left : 5vw; 
+    gap : 1vw 
+}
+
+.btmbar-left > .kopi {
+    max-width: 30px;
+    vertical-align: middle;
+    margin-right: 1vw;
+}
+
+.textbwh {
+    padding-right : 8vw;
+    margin-top: 3vh;
+    color: #4F5665;
+    font-size:medium;
+}
+
+.fb {
+    width: 70px;
+    margin-left: -1vw;
+}
+
+.twitter {
+    width: 70px;
+    margin-left: -1vw;
+}
+
+.instagram {
+    width: 70px;
+    margin-left: -1vw;
+}
+
+.copyright {
+    color: #AFB5C0;
+    font-size: small;
+}
+
+.bottombar > .btmbar-right {
+    flex: 2;
+    display: flex;
+}
+
+.product-footer {
+    flex: 1;
+}
+
+.engange-footer {
+    flex: 1;
+}
+
+.title-footer {
+    font-size: x-large;
+    font-weight: 700;
+}

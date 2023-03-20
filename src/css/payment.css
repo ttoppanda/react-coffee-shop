@@ -1,0 +1,55 @@
+.parent {
+    background-image : url('../assets/payment/bgPayment.png');
+    background-attachment : fixed;
+    background-size : cover;
+    display : grid;
+    grid-template-columns:50vw 50vw;
+}
+
+.left {
+    padding-left : 6vw;
+    padding-top : 3vw;
+    padding-bottom : 3vw;
+}
+
+.title {
+    color : white;
+    font-size : 3rem;
+    padding-right: 20vw;
+    padding-bottom : 3vw;
+}
+
+.card {
+    padding : 5vw;
+    background-color : white;
+    border-radius : 20px 20px;
+    padding-left : 3vw;
+    padding-right : 3vw;
+}
+
+.order-summary {
+    display : grid;
+    justify-items : center;
+}
+
+.title-card {
+    color : #362115;
+    font-size : 1.8rem;
+    font-weight : 700;
+    padding-bottom : 3vw;
+}
+
+.itemsParent {
+    padding-top : 2vw;
+    padding-bottom : 2vw;
+    display : grid;
+    grid-template-columns : auto auto auto;
+    grid-template-rows: auto;
+    gap : 5vw;
+    align-items : center;
+    font-size : 1.3rem;
+}
+
+.items {
+    padding : 1vw;
+}

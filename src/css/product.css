@@ -336,7 +336,7 @@
     display: flex;
     align-items: center;
     align-self: center;
-    padding-left: 3vw;
+    padding-left: 6vw;
     font-weight: bold;
 }
 
@@ -368,7 +368,7 @@
     flex: 1;
     align-self: center;
     justify-content: flex-end;
-    padding-right: 3vw;
+    padding-right: 6vw;
 }
 
 .profilelogo {

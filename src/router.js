@@ -7,6 +7,7 @@ import ForgotpassPage from "./pages/auth/forgotpassPage";
 import ProductPage from "./pages/product";
 import DetailProductPage from './pages/product/detail';
 import ProfilePage from './pages/profile/index';
+import PaymentPage from './pages/transaction/payment';
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
     {
         path: "/profile",
         element: <ProfilePage/>,
+    },
+    {
+        path: "/payment",
+        element: <PaymentPage/>,
     },
 ]);
 
