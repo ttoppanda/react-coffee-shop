@@ -36,45 +36,52 @@ const ListProduct = () => {
                 </div>
             </div>
             <div className="m-content-product">
-                <div className="flex flex-row justify-center items-center pt-4 pb-4">
-                    <div className="flex flex-col h-96 w-56 rounded-2xl product-card-1 justify-center items-center">
-                        <div className="flex flex-col justify-center items-center w-full h-4/6 p-6">
-                            <img src={promo} alt="" className="rounded-full h-28 m-4" />
-                            <div className="text-center product-card-p text-lg">
-                                Beff Spaghetti
+                <div class="promo-product">
+                    <p class="promo-title">Promo For You</p>
+                    <p class="promo-text">Coupons will be updated every weeks. Check them out.</p>
+                    <div class="mobileresponsive">
+                        <div class="promo-card-parent">
+                            <div class="card promo-one" id="promo-one">
+                                <img src={promo} alt=""/>
+                                    <p class="promo-menutitle" id="promo-title"></p>
+                                    <p class="menutitle-text" id="coupon_desc"></p>
+                                    <p class="dotted"></p>
+                                    <p class="menutitle-text">COUPON CODE</p>
+                                    <p class="promo-couponcode" id="coupon_code"></p>
+                                    <p class="menutitle-text" id="coupon_expired"></p>
                             </div>
-                            <div className="text-center product-card-p text-lg">
-                                20% OFF
+
+                            <div class="card promo-two">
                             </div>
-                            <div className="text-center product-card-pd m-1 text-xs">
-                                Buy 1 Choco Oreo and get 20% off for Beef Spaghetti
+                            <div class="card promo-three">
                             </div>
                         </div>
-                        <div className="flex flex-col justify-center items-center w-full h-2/6 border-t-2 border-black border-dashed">
-                            <div className="text-center product-card-c text-base">
-                                COUPON CODE
+                        <div class="termsncondi">
+                            <div class="termsncondimobile">
+                                <p class="promo-tandc">Terms and Condition</p>
+                                <p class="text-promotandc">1. You can only apply 1 coupon per day</p>
+                                <p class="text-promotandc">2. It only for dine in</p>
+                                <p class="text-promotandc">3. Buy 1 get 1 only for new user</p>
+                                <p class="text-promotandc">4. Should make member card to apply coupon</p>
                             </div>
-                            <div className="text-center product-card-cc text-2xl">
-                                FNPR15RG
-                            </div>
-                            <div className="text-center product-card-cd text-xs">
-                                Valid untill October 10th 2020
-                            </div>
+                            <button class="pointer promo-apply">Apply Coupon</button>
                         </div>
                     </div>
-                    <div className="flex h-80 w-6 rounded-r-2xl product-card-2 justify-center items-center" />
-                    <div className="flex h-64 w-6 rounded-r-2xl product-card-3 justify-center items-center" />
                 </div>
-                <div className="list-product">
-                    <div className="product-category" id="product-category">
+                <div class="list-product">
+                    <div class="product-category" id="product-category">
                         <ul>
-                            <li className="pointer active category">Favorite Product</li>
-                            <li className="pointer ">Coffee</li>
-                            <li className="pointer ">Non Coffee</li>
-                            <li className="pointer ">Foods</li>
-                            <li className="pointer ">Add-on</li>
+                            <li class="pointer active category">Favorite Product</li>
+                            <li class="pointer ">Coffee</li>
+                            <li class="pointer ">Non Coffee</li>
+                            <li class="pointer ">Foods</li>
+                            <li class="pointer ">Add-on</li>
                         </ul>
-                        <div className="product-listmenu"></div>
+
+                        <div id="product-listmenu" class="product-listmenu">
+
+
+                        </div>
                     </div>
                 </div>
             </div>
