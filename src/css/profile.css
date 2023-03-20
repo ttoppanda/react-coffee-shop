@@ -1,0 +1,623 @@
+@media screen and (max-width: 768px) {
+    .title-profile {
+        padding-top: 5vw !important;
+        padding-left: 5vw !important;
+    }
+
+    .card-profile {
+        display: grid !important;
+        margin-top: 5vw !important;
+        margin-bottom: 5vw !important;
+        margin-left: 10vw !important;
+        margin-right: 10vw !important;
+    }
+
+    .profileimg {
+        max-width: 40vw !important;
+    }
+
+    .buttonmobiletop {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .uploadimg {
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        padding-left: 7vw !important;
+        padding-right: 7vw !important;
+        margin-bottom: 5vw !important;
+        margin-top: 0% !important;
+        margin-left: 2vw !important;
+        margin-right: 2vw !important;
+    }
+
+    .removeimg {
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        padding-left: 7vw !important;
+        padding-right: 7vw !important;
+        margin-top: 0% !important;
+        margin-bottom: 5vw !important;
+        margin-left: 2vw !important;
+        margin-right: 2vw !important;
+    }
+
+    .editpass {
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        padding-left: 10vw !important;
+        padding-right: 10vw !important;
+        margin-bottom: 5vw !important;
+    }
+    
+    .profiletext {
+        font-size: 20px !important;
+        margin-bottom: 5vw;
+    }
+
+    .buttonmobilebottom {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .save {
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        padding-left: 9vw !important;
+        padding-right: 9vw !important;
+        margin-top: 0% !important;
+        margin-bottom: 5vw !important;
+        margin-left: 1vw !important;
+        margin-right: 1vw !important;
+    }
+
+    .cancel {
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        padding-left: 14vw !important;
+        padding-right: 14vw !important;
+        margin-top: 0% !important;
+        margin-bottom: 5vw !important;
+        margin-left: 1vw !important;
+        margin-right: 1vw !important;
+    }
+
+    .logout {
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        padding-left: 15vw !important;
+        padding-right: 15vw !important;
+        margin-bottom: 5vw !important;
+    }
+
+    .right-side {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .card-rightside {
+        margin-bottom: 5vw!important;
+        display: grid !important;
+        grid-template-columns: auto;
+        width: 78vw;
+    }
+
+    .one-rightside {
+        margin-bottom: 5vw!important;
+        border-radius: 20px !important;
+    }
+
+    .two-rightside {
+        display: none;
+    }
+
+    .profileheader {
+        font-size: large !important;
+        padding-bottom: 4vw !important;
+        padding-top: 4vw !important;
+    }
+
+    .emailprofile {
+        font-size: medium;
+    }
+
+    .edit-logo {
+        max-width: 8vw !important;
+        padding-left: 25vw !important;
+    }
+
+    .birthdate {
+        padding-top: 31vw !important;
+    }
+
+    .female {
+        margin-top: 47vw !important;
+    }
+
+    .displayonmobile {
+        display: grid !important;
+        color: #9F9F9F;
+    }
+
+    .birthdate2 {
+        color: #9F9F9F;
+    }
+
+    .checkmark {
+        display: none;
+    }
+
+    .radiobtnonmobile {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .radiobtnonmobile .male {
+        margin-top: 5vw !important;
+        height: 4vw !important;
+    }
+
+    .radiobtnonmobile .female {
+        margin-top: 5vw !important;
+        height: 4vw !important;
+    }
+
+
+
+    .bottombar-profile {
+        display: grid !important;
+        grid-template-columns: auto;
+        padding-top: 5vw !important;
+        padding-bottom: 5vw !important;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+
+    .bottombar-profile > .one-footer {
+        width: 80vw;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+        padding-bottom: 5vw;
+    }
+
+    .bottombar-profile > .two-footer {
+        width: 100vw;
+        padding-right: 5vw;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .title-profile {
+        padding-top: 5vw !important;
+        padding-left: 5vw !important;
+    }
+
+    .card-profile {
+        margin-left: 5vw !important;
+        margin-right: 5vw !important;
+    }
+
+    .profilename {
+        margin-top: -5vw !important;
+    }
+
+    .profileemail {
+        margin-top: -5vw !important;
+        padding-bottom: 0% !important;
+    }
+
+    .uploadimg {
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    }
+
+    .removeimg {
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    }
+
+    .editpass {
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    }
+
+    .profiletext {
+        font-size: 20px !important;
+    }
+
+    .save {
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    }
+
+    .cancel {
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+        padding-left: 8vw !important;
+        padding-right: 8vw !important;
+    }
+
+    .buttonmobiletop {
+        display: none !important;
+    }
+
+    .buttonmobilebottom {
+        display: none !important;
+    }
+
+    .editpass {
+        display: none;
+    }
+
+    .logout {
+        display: none;
+    }
+
+    .buttontabtop {
+        display: grid !important;
+        grid-template-rows: auto;
+    }
+
+    .removeimg {
+        margin-bottom: 1vw !important;
+    }
+
+    .editpass2 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 1vw;
+    background-color: #FFFFFF;
+    color : #6A4029;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+    }
+
+    .buttontabbottom {
+        display: grid !important;
+    }
+
+    .cancel {
+        margin-bottom: 1vw !important;
+    }
+
+    .logout2 {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-bottom: 1vw;
+    background-color: #FFFFFF;
+    color : #6A4029;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+    }
+
+    .radiobtnonmobile {
+        display: none;
+    }
+
+    .edit-logo {
+        padding-left: 18vw !important;
+        max-width: 5vw !important;
+    }
+
+    .birthdate {
+        padding-top: 21vw !important;
+    }
+
+    .female {
+        margin-top:32vw !important; 
+    }
+}
+
+
+.displayonmobile {
+    display: none;
+}
+
+.content-profile {
+    background: url("../assets/profile-css/background-profile.jpg");
+    background-attachment: fixed;
+}
+
+.title-profile {
+    padding-top: 20vh;
+    padding-left: 20vh;
+    color: white;
+}
+
+.card-profile {
+    background-color: white;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    display: flex;
+    border-radius: 20px;
+}
+
+.card-profile > .left-side {
+    background-color: #F8F8F8;
+    flex: 1;
+    display: grid;
+}
+
+.card-profile > .right-side {
+    background-color: #F8F8F8;
+    flex: 2;
+}
+
+.profileimg {
+    justify-self: center;
+    max-width: 20vw;
+    border-radius: 50%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.profilename {
+    justify-self: center;
+    font-size: large;
+    font-weight: 600;
+}
+
+.profileemail{
+    justify-self: center;
+    padding-bottom: 5vh;
+}
+
+.buttonmobiletop {
+    display: grid;
+}
+
+.buttonmobilebottom {
+    display: grid;
+}
+
+.uploadimg {
+    height: 50px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #FFBA33;
+    color : #6A4029;
+    border: none;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+}
+
+.removeimg {
+    height: 50px;
+    margin-top: 1vw;
+    margin-bottom: 4vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #6A4029;
+    color : #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+}
+
+.editpass {
+    height: 50px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 1vw;
+    background-color: #FFFFFF;
+    color : #6A4029;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+}
+
+.profiletext {
+    justify-self: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #6A4029;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+.save {
+    height: 50px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #6A4029;
+    color : #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+}
+
+.cancel {
+    height: 50px;
+    padding-left: 13.5vh;
+    padding-right: 13.5vh;
+    margin-bottom: 3vw;
+    background-color: #FFBA33;
+    color : #6A4029;
+    border: none;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+}
+
+.logout {
+    height: 50px;
+    padding-left: 13.5vh;
+    padding-right: 13.5vh;
+    margin-bottom: 5vw;
+    background-color: #FFFFFF;
+    color : #6A4029;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    justify-self: center;
+    font-weight: 700;
+}
+
+.card-rightside {
+    display: flex;
+}
+
+.one-rightside {
+    flex: 1.5;
+    padding-bottom: 5vw;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    margin-left: 3vw;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 20px 0px 0px #6A4029;
+}
+
+.profileheader {
+    font-size: x-large;
+    font-weight: 700;
+    padding-bottom: 2vw;
+}
+
+.emailprofile {
+    color: #9F9F9F;
+}
+
+.card-rightside > .two-rightside {
+    flex: 1.5;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    margin-top: 5vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 20px 0px 0px #6A4029;
+}
+
+.email-profile {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0%;
+    background-color:transparent;
+    margin-bottom: 3vw;
+}
+
+.delivery-profile {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0%;
+    background-color:transparent;
+    margin-bottom: 5vw;
+}
+
+.edit-logo {
+    float : right;
+    max-width: 3.8vw;
+}
+
+.mobilenumber {
+    color: #9F9F9F;
+}
+
+.number-profile {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0%;
+    background-color: transparent;
+    color: #9F9F9F;
+}
+
+.birthdate {
+    color: #9F9F9F;
+    padding-top: 16vw;
+}
+
+
+.male {
+    width: 5vw;
+    height: 2vw;
+    margin-left: 10vw;
+    background-color: #FFBA33;
+}
+
+.ceklis {
+    font-size: x-large;
+    font-weight: 700;
+    color: #9F9F9F;
+}
+
+.checkmark:hover input {
+    background-color: #FFBA33;
+}
+
+.checkmark input:checked ~ .ceklis {
+    color: #6A4029;
+}
+
+.female {
+    width: 5vw;
+    margin-top: 25vw;
+    height: 2vw;
+}
+
+.buttontabbottom {
+    display: none;
+}
+
+.buttontabtop {
+    display: none;
+}
+
+.radiobtnonmobile {
+    display: none;
+}
+/*footer*/
+
+.bottombar-profile {
+    background-color: #F8F8F8;
+    display: flex;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.bottombar-profile > .one-footer {
+    flex: 1;
+    align-self: center;
+    padding-left: 20vh;
+    padding-right: 40vh;
+}
+
+.bottombar-profile > .two-footer {
+    flex: 2;
+    display: flex;
+}
+
+.left-profilefooter {
+    flex: 1;
+}
+
+.right-engangefooter {
+    flex: 1;
+}
+
+.title-footer {
+    font-size: x-large;
+    font-weight: 700;
+}

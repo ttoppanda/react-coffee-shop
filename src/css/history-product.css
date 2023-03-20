@@ -1,0 +1,82 @@
+.content-history {
+    background-image: url('../assets/bg-historyProd.png');
+    display: grid;
+    justify-items: center;
+}
+
+#cardHistory {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    gap: 2vw;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    cursor: pointer;
+}
+
+#cardHistory > .card >.card-body {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: #F7F7F8;
+    border-radius: 20px 20px;
+    padding: 5px;
+    min-height: 100px;
+}
+
+.card-content {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.brown-circle {
+    display: block;
+    position:relative;
+    border-radius: 50%;
+    background-color: #6A4029;
+    width: 30px;
+    height: 30px;
+    top: 150%;
+    left: 70%;
+}
+
+.yellow-circle {
+    display: block;
+    position:relative;
+    border-radius: 50%;
+    background-color: #FFBA33;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 85%;
+}
+
+.brown-circle img {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.yellow-circle img {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.overlay {
+    position : fixed;
+    display : none;
+    height : 50%;
+    width : 50%;
+    background-color : lightblue;
+    opacity : 50%;
+    cursor : pointer;
+}
+
+.btn-hide {
+    display: none;
+}
