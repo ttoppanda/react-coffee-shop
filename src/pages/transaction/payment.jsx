@@ -15,7 +15,7 @@ class Payment extends Component {
             <>
                 <Header />
                 <div className="parent">
-                    <div className="left">
+                    <div className="leftPayment">
                         <p className="title">
                             Checkout your item now!
                         </p>

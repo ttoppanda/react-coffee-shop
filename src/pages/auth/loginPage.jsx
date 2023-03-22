@@ -8,16 +8,16 @@ class LoginPage extends Component {
     render (){
     return (
         <>
-            <div className='flex-container'>
-                <div className='left'>
-                    <img src={background} alt='background' className='cover' />
+            <div className='flex'>
+                <div className='flex-1'>
+                    <img src={background} alt='background' className='w-screen' />
                 </div>
-                <div className='right'>
-                    <div className='r-header-index'>
-                        <div className='headTitle'>
+                <div className='flex-1'>
+                    <div className='text-sm text-[#6A4029] text-bold mt-[10px] mb-[10px] p-[5px]'>
+                        <div className='flex gap-3 items-center'>
                             <img src={logoHeader} alt='kopi' className='kopi' />
-                            <div className='pointer kopititle'>Coffee Shop</div>
-                            <div className='pointer signup'>Sign Up</div>
+                            <div className='pointer-events-auto max-w-[30px] algin-middle'>Coffee Shop</div>
+                            <div className='pointer-events-auto float-right fs-lg no-underline text-[#6A4029]'>Sign Up</div>
                         </div>
                     </div>
 
