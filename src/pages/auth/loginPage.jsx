@@ -3,6 +3,7 @@ import logoHeader from '../../assets/smkopi.png';
 import googleLogo from '../../assets/google.png';
 import background from '../../assets/background.jpg';
 import '../../css/global.css';
+import Footer from '../../component/footer';
 
 class LoginPage extends Component {
     render (){
@@ -21,34 +22,28 @@ class LoginPage extends Component {
                         </div>
                     </div>
 
-                    <div className='right-content'>
+                    <div className='mt-[50px] mb-[100px] px-[150px]'>
                         <form action="#">
-                            <p className='formtxt'>Email Address : </p>
+                            <p className='font-bold'>Email Address : </p>
                             <input type="email" placeholder='enter your email' id='email' name='email' />
                             <span id='resultEmail'></span>
-                            <p className='formtxt'>Password : </p>
+                            <p className='font-bold'>Password : </p>
                             <input type="password" id='password' placeholder='enter your password' />
                             <span id='resultPassword'></span>
-                            <div className='pointer forgotpass'>Forgot Password?</div>
-                            <br></br>
-                            <br></br>
-                            <button type="submit" className='login'>Login</button>
-                            <br></br>
-                            <br></br>
-                            <button type="submit" className='google'> <img src={googleLogo} alt='google' className='imggoogle' /> Sign Up With Google</button>
-                            <br></br>
-                            <br></br>
-                            <div className='underline'>
-                                <div className='border-left'></div>&nbsp;
+                            <div className='pointer-events-auto no-underline text-[#6A4029] font-bold'>Forgot Password?</div>
+                            <button type="submit" className='bg-[#FFBA33] text-center font-sm font-bold text-[#6A4029] pointer-events-auto border-none w-full p-[15px] rounded-md mt-[20px] mb-[30px]'>Login</button>
+                            <button type="submit" className='bg-white shadow-lg text-center text-black pointer-events-auto w-full p-[15px] rounded-md font-bold mb-[30px] px-[24px]'> <img src={googleLogo} alt='google' className='inline-flex align-middle max-w-[30px] pr-[10px]' /> Sign Up With Google</button>
+                            <div className='w-full flex color-gray mb-[50px]'>
+                                <div className='flex-1 border-b-2 border-solid border-gray w-[150px] mb-[10px]'></div>&nbsp;
                                 <p>Already have an account?</p>&nbsp;
-                                <div className='border-right'></div>
+                                <div className='flex-1 border-b-2 border-solid border-gray w-[150px] mb-[10px]'></div>
                             </div>
-                            <button className='loginhere'>Sign Up Here</button>
+                            <button className='bg-[#6A4029] text-center font-md font-bold text-white pointer-events-auto border-none w-full p-[15px] rounded-md mt-[10px] mb-[30px]'>Sign Up Here</button>
                         </form>
                     </div>
                 </div>
             </div>
-
+        <Footer/>
         </>
     )}
 }
