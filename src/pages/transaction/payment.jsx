@@ -19,7 +19,7 @@ class Payment extends Component {
                         <p className="title">
                             Checkout your item now!
                         </p>
-                        <div className="card order-summary">
+                        <div className="cardPayment order-summary">
                             <p className="title-card">Order Summary</p>
                             <div className="itemsParent">
                                 <img src={itemsOne} alt="itemsOne" className="items" />

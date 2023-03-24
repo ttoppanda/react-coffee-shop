@@ -15,10 +15,10 @@ class LoginPage extends Component {
                 </div>
                 <div className='flex-1'>
                     <div className='text-sm text-[#6A4029] text-bold mt-[10px] mb-[10px] p-[5px]'>
-                        <div className='flex gap-3 items-center'>
-                            <img src={logoHeader} alt='kopi' className='kopi' />
-                            <div className='pointer-events-auto max-w-[30px] algin-middle'>Coffee Shop</div>
-                            <div className='pointer-events-auto float-right fs-lg no-underline text-[#6A4029]'>Sign Up</div>
+                        <div className='flex gap-2 items-center'>
+                            <img src={logoHeader} alt='kopi' className='flex-1 max-w-[30px] align-middle' />
+                            <div className='pointer-events-auto text-black flex-1 algin-middle no-underline'>Coffee Shop</div>
+                            <div className='pointer-events-auto float-right text-2xl no-underline text-[#6A4029] font-bold'>Sign Up</div>
                         </div>
                     </div>
 

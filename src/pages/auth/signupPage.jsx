@@ -15,16 +15,16 @@ class SignupPage extends Component {
     render() {
         return (
             <>
-                <div className='flex-container'>
-                    <div className='left'>
-                        <img src={background} alt='background' className='cover' />
+                <div className='flex'>
+                    <div className='flex-1'>
+                        <img src={background} alt='background' className='w-screen rounder-md' />
                     </div>
-                    <div className='right'>
-                        <div className='r-header-index'>
-                            <div className='headTitle'>
-                                <img src={logoHeader} alt='kopi' className='kopi' />
-                                <div className='pointer kopititle'>Coffee Shop</div>
-                                <div className='pointer signup'>Sign Up</div>
+                    <div className='flex-1'>
+                        <div className='text-sm color-[#6A4029] font-bold mt-[20px] mb-[50px] px-[10px]'>
+                            <div className='flex gap-2 items-center'>
+                                <img src={logoHeader} alt='kopi' className='max-w-[30px] align-middle flex-1' />
+                                <div className='pointer-events-auto no-underline text-black flex-1'>Coffee Shop</div>
+                                <div className='pointer-events-auto no-underline text-2xl float-right text-[#6A4029] font-bold'>Sign Up</div>
                             </div>
                         </div>
 
