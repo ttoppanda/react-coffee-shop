@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function App() {
   useEffect(()=>{
-    axios.get('https://localhost:3004/items/product')
+    axios.get('https://localhost:5432/product')
     .then(res=>console.log(res.data)).catch(err=>console.log(err))
   }, [])
   return(

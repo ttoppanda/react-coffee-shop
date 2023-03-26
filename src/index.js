@@ -2,8 +2,33 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { RouterProvider } from 'react-router-dom';
-import router from './router'
+import router from './routers/router';
+// import express from 'express';
+// import cors from 'cors';
+// import knex from 'knex';
 // import reportWebVitals from './reportWebVitals';
+
+// const db = knex({
+//   client: 'pg',
+//   connection: {
+//     host : process.env.host,
+//     database : process.env.database,
+//     port : process.env.port,
+//     user : process.env.user,
+//     password : process.env.password,
+//   },
+// });
+
+// const app = express();
+
+// app.use(cors());
+
+// app.get('/', (req, res) => res.send('Home Route'));
+
+// const port = process.env.port || 5000;
+
+// app.listen (port, () => console.log(`Server running on port ${port}, 
+// http://localhost:${port}`));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function Run({ isStrict, children }) {
